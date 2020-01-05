@@ -6,7 +6,7 @@ Run the following commands to solve a puzzle
 
 ```
 from eight_puzzle_solver_script import eight_puzzle_solver
-start_node = [0, 1, 3, 4, 2, 5, 7, 8, 6] #This is one example.
+start_node = [0, 1, 3, 4, 2, 5, 7, 8, 6]
 eight_puzzle_solver(start_node)
 ```
 
