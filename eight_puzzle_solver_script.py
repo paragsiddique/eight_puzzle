@@ -120,3 +120,15 @@ def neighbour_state_generate(state, legal_move_cell):
     neighbour_state = tuple([tuple(x) for x in pre_neighbour_state])
     
     return neighbour_state
+
+
+def check_solvability(state):
+        """ Checks if the given state is solvable """
+
+        inversion = 0
+        for i in range(len(state)):
+            for j in range(i + 1, len(state)):
+                if (state[i] > state[j]) and state[i] != 0 and state[j] != 0:
+                    inversion += 1
+
+        return inversion % 2 == 0
