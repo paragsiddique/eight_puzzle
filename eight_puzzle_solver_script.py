@@ -5,8 +5,6 @@ Created on Sun Jan  5 10:40:15 2020
 @author: parag
 """
 
-#from eight_puzzle_neighbour_generator import *
-
 def eight_puzzle_solver(start_node):
     """
     INPUT
