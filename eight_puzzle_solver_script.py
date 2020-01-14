@@ -7,7 +7,7 @@ Created on Sun Jan  5 10:40:15 2020
 
 def eight_puzzle_solver(start_node):
     """
-    INPUT
+    Input
     start_node: a starting position for the 8 puzzle game
                 e.g., [0, 1, 3, 4, 2, 5, 7, 8, 6]
     
