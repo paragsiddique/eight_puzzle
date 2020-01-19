@@ -123,8 +123,7 @@ def neighbour_state_generate(state, legal_move_cell):
 
 
 def check_solvability(state):
-        """ Checks if the given state is solvable """
-
+       
         inversion = 0
         for i in range(len(state)):
             for j in range(i + 1, len(state)):
